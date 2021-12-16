@@ -7,6 +7,5 @@ for i in "emp".split():
     for j in l:
         x.append(i+str(j))
 print(x)
-
 #ANother Method
 print([i+str(j) for j in l for i in "emp".split()])
