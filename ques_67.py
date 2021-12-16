@@ -7,3 +7,12 @@
 # [99, 96, 94, 98]
 
 l = [('Greyson Fulton', 98, 99), ('Brady Kent', 97, 96), ('Wyatt Knott', 91, 94), ('Beau Turnbull', 94, 98)]
+n=0
+print([i[n] for i in l])
+
+#Anpother Method
+x = []
+for i in l:
+    if i[n]:
+        x.append(i[n])
+print(x)
