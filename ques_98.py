@@ -1,15 +1,12 @@
-#  Write a Python program to get the weighted average of two or more numbers. Go to the editor
+# Write a Python program to create a given flat list of all the keys in a flat dictionary. Go to the editor
 # Sample Output:
-# Original list elements:
-# [10, 50, 40]
-# [2, 5, 3]
-# Weighted average of the said two list of numbers:
-# 39.0
-# Original list elements:
-# [82, 90, 76, 83]
-# [0.2, 0.35, 0.45, 32]
-# Weighted average of the said two list of numbers:
-# 82.97272727272727
+# Original directory elements:
+# {'Laura': 10, 'Spencer': 11, 'Bridget': 9, 'Howard ': 10}
+# Flat list of all the keys of the said dictionary:
+# ['Laura', 'Spencer', 'Bridget', 'Howard ']
 
-l1 = [10, 50, 40]
-l2 =  [2, 5, 3]
+l = {'Laura': 10, 'Spencer': 11, 'Bridget': 9, 'Howard ': 10}
+x=[]
+for i in zip(l):
+    x.append(i)
+print(x)
